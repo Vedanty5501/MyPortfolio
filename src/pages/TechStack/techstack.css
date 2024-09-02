@@ -1,0 +1,181 @@
+/* .TechStack{
+    
+} */
+.heading{
+    /* text-align: center; */
+    font-size: 57px;
+}
+
+.row1{
+    display: grid;
+    grid-template-columns: 2fr 2fr 3fr 3fr;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+}
+.row2{
+    display: grid;
+    grid-template-columns: 2fr 2fr 3fr 3fr;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+}
+.row3{
+    display: grid;
+    grid-template-columns: 2fr 2fr 3fr 3fr;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+}
+.c{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: fit-content;
+    width: fit-content;
+    /* margin: 10px; */
+    /* border-color: greenyellow;
+    border-width: 10cap; */
+    
+}
+.cpp{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: fit-content;
+    width: fit-content;
+    /* margin: 10px; */
+}
+.python{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: fit-content;
+    width: fit-content;
+    /* margin: 10px; */
+}
+.html{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: fit-content;
+    width: fit-content;
+}
+.JS{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: fit-content;
+    width: fit-content;
+}
+.node{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: fit-content;
+    width: fit-content;
+}
+.react{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: fit-content;
+    width: fit-content;
+}
+.android{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: fit-content;
+    width: fit-content;
+}
+.sql{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: fit-content;
+    width: fit-content;
+}
+.mongo{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: fit-content;
+    width: fit-content;
+}
+.c img:hover{
+    width: 70%;
+    box-shadow: 5px 5px 5px #835098;
+}
+.cpp img:hover{
+    width: 70%;
+    box-shadow: 5px 5px 5px #835098;
+}
+.python img{
+    aspect-ratio: 1.5 ;
+    width: 65%;
+}
+.python img:hover{
+    width: 70%;
+    box-shadow: 5px 5px 5px #835098;
+}
+.html img{
+    aspect-ratio: 1.7;
+    width: 80%;
+}
+.html img:hover{
+    width: 90%;
+    box-shadow: 5px 5px 5px #835098;
+}
+.JS img{
+    aspect-ratio: 1;
+    width: 65%;
+}
+.JS img:hover{
+    width: 75%;
+    box-shadow: 5px 5px 5px #835098;
+}
+.node img{
+    aspect-ratio: 1.5;
+    width: 85%;
+}
+.node img:hover{
+    width: 95%;
+    box-shadow: 5px 5px 5px #835098;
+}
+.react img{
+    aspect-ratio: 1.5;
+    width: 65%;
+}
+.react img:hover{
+    width: 71%;
+    box-shadow: 5px 5px 5px #835098;
+}
+.android img{
+    aspect-ratio: 2;
+    width: 80%;
+}
+.android img:hover{
+    width: 90%;
+    box-shadow: 5px 5px 5px #835098;
+}
+.sql img{
+    aspect-ratio: 1.4;
+    width:80%;
+}
+.sql img:hover{
+    width: 90%;
+    box-shadow: 5px 5px 5px #835098;
+}
+.mongo img{
+    aspect-ratio: 1.5;
+    width: 55%;
+}
+.mongo img:hover{
+    width: 65%;
+    box-shadow: 5px 5px 5px #835098;
+}
+img{
+    /* height: 200px;
+    width: 200px; */
+    aspect-ratio: 1;
+    width: 60%;
+    border-radius: 20px;
+    padding:10px;
+    border: 5px solid #a560c2 ;
+    /* padding: 10px; */
+}
+
+img:hover{
+    border-color: orange;
+}
