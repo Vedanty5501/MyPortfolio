@@ -1,0 +1,68 @@
+.contact{
+    height: max-content;
+    width: max-content;
+    margin: 50px;
+    color: white;
+    margin-top: 40px;
+    background-image: linear-gradient(to bottom right,rgba(18,16,28,255),rgba(33,18,56,255));
+    border-radius: 90px;
+    border: 5px solid #cd5ff8;
+    opacity: 1;
+    padding: 30px 140px;
+}
+.contact-form{
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.contact-form label{
+    font-family:'Courier New', Courier, monospace;
+    font-size: larger;
+}
+.contact-form input{
+    border: 4px solid blueviolet;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    padding: 5px;
+    padding-left: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align:left start;
+}
+.contact-form input:hover{
+    border-color: orange;
+}
+.contact-form input:focus{
+    border-color: orange
+}
+.req{
+    color: red;
+}
+#Msg{
+    border: 4px solid blueviolet;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    padding: 5px;
+    padding-left: 20px;
+    height: 300px;
+    width: 600px;
+}
+#Msg:hover{
+    border-color: orange;
+}
+#Msg:focus{
+    border-color: orange
+}
+.contact-text{
+    margin-left: 100px;
+}
+
+.submit{
+    background-color: blueviolet;
+    margin-top: 10px;
+    margin-left: 170px;
+    color: white;
+    width: 300px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}

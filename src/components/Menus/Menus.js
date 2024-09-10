@@ -19,7 +19,7 @@ const Menus = ({toggle, setView}) => {
                         <div className='nav-link' onClick={() => setView('About')}><FcBusinessman />About</div>
                         <div className='nav-link' onClick={() => setView('WorkEx')}><FcLibrary />Work Experience</div>
                         <div className='nav-link' onClick={() => setView('TechStack')}><FcTodoList/>Tech Stack</div>
-                        <div className='nav-link' onClick={() => setView('Education')}><FcGraduationCap />Education</div>
+                        <div className='nav-link' onClick={() => setView('Academics')}><FcGraduationCap />Academics & Certifications</div>
                         <div className='nav-link' onClick={() => setView('Projects')}><FcCommandLine />Projects</div>
                         <div className='nav-link' onClick={() => setView('Resume')}><FcDocument/>Resume</div>
                         <div className='nav-link' onClick={() => setView('Contact')}><FcPhone />Contact Me</div>
@@ -36,7 +36,7 @@ const Menus = ({toggle, setView}) => {
                         <div className='nav-link' onClick={() => setView('About')}><FcBusinessman size={25} title='About'/></div>
                         <div className='nav-link' onClick={() => setView('WorkEx')}><FcLibrary size={25} title='Work Experience'/></div>
                         <div className='nav-link' onClick={() => setView('TechStack')}><FcTodoList size={25} title='Tech Stack'/></div>
-                        <div className='nav-link' onClick={() => setView('Education')}><FcGraduationCap size={25} title='Education'/></div>
+                        <div className='nav-link' onClick={() => setView('Academics')}><FcGraduationCap size={25} title='Academics'/></div>
                         <div className='nav-link' onClick={() => setView('Projects')}><FcCommandLine size={25} title='Projects'/></div>
                         <div className='nav-link' onClick={() => setView('Resume')}><FcDocument size={25} title='Resume'/></div>
                         <div className='nav-link' onClick={() => setView('Contact')}><FcPhone size={25} title='Contact Me'/></div>

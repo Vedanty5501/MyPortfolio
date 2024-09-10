@@ -1,0 +1,13 @@
+   .pdf-view{
+    margin-top: 50px;
+    margin-left: 200px;
+   } 
+   .pdf{
+    height: 620px;
+    width: 430px;
+    border: 5px solid #cd5ff8;
+    border-radius: 20px;
+   }
+   .pdf:hover{
+    border-color: orange;
+   }

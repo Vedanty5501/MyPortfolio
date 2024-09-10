@@ -93,77 +93,61 @@
     height: fit-content;
     width: fit-content;
 }
-.c img:hover{
+.c img{
+    transition: transform 0.3s ease;
+}
+.cpp img{
+    transition: transform 0.3s ease;
+}
+/* .c img:hover{
+    /* width: 70%; */
+    /* box-shadow: 5px 5px 5px #835098;
+    transform: scale(1.1); */
+/* }  */
+/* .cpp img:hover{
     width: 70%;
     box-shadow: 5px 5px 5px #835098;
-}
-.cpp img:hover{
-    width: 70%;
-    box-shadow: 5px 5px 5px #835098;
-}
+} */
 .python img{
     aspect-ratio: 1.5 ;
     width: 65%;
-}
-.python img:hover{
-    width: 70%;
-    box-shadow: 5px 5px 5px #835098;
+    transition: transform 0.3s ease;
 }
 .html img{
     aspect-ratio: 1.7;
     width: 80%;
-}
-.html img:hover{
-    width: 90%;
-    box-shadow: 5px 5px 5px #835098;
+    transition: transform 0.3s ease;
 }
 .JS img{
     aspect-ratio: 1;
     width: 65%;
-}
-.JS img:hover{
-    width: 75%;
-    box-shadow: 5px 5px 5px #835098;
+    transition: transform 0.3s ease;
 }
 .node img{
     aspect-ratio: 1.5;
     width: 85%;
-}
-.node img:hover{
-    width: 95%;
-    box-shadow: 5px 5px 5px #835098;
+    transition: transform 0.3s ease;
 }
 .react img{
     aspect-ratio: 1.5;
     width: 65%;
-}
-.react img:hover{
-    width: 71%;
-    box-shadow: 5px 5px 5px #835098;
+    transition: transform 0.3s ease;
 }
 .android img{
     aspect-ratio: 2;
     width: 80%;
-}
-.android img:hover{
-    width: 90%;
-    box-shadow: 5px 5px 5px #835098;
+    transition: transform 0.3s ease;
 }
 .sql img{
     aspect-ratio: 1.4;
     width:80%;
-}
-.sql img:hover{
-    width: 90%;
-    box-shadow: 5px 5px 5px #835098;
+    transition: transform 0.3s ease;
 }
 .mongo img{
     aspect-ratio: 1.5;
     width: 55%;
-}
-.mongo img:hover{
-    width: 65%;
-    box-shadow: 5px 5px 5px #835098;
+    transition: transform 0.3s ease;
+    
 }
 img{
     /* height: 200px;
@@ -178,4 +162,6 @@ img{
 
 img:hover{
     border-color: orange;
+    box-shadow: 5px 5px 5px #835098;
+    transform: scale(1.1);
 }

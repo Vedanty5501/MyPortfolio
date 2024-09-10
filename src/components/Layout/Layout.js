@@ -53,7 +53,7 @@ const Layout = () => {
             {view === 'About' && <About />}
             {view === 'WorkEx' && <WorkEx />}
             {view === 'TechStack' && <TechStack />}
-            {view === 'Education' && <Education />}
+            {view === 'Academics' && <Education />}
             {view === 'Projects' && <Projects />}
             {view === 'Resume' && <Resume />}
             {view === 'Contact' && <Contact />}
