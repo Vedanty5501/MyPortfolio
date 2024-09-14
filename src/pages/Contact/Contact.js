@@ -4,8 +4,13 @@ import './contact.css'
 import { PiWhatsappLogo } from "react-icons/pi";
 
 function Contact() {
-  const form = useRef();
+  // const form = useRef();
 
+  const sendMail = (e) => {
+    e.preventDefault();
+    alert("Connection Request Send")
+
+  }
   // const sendEmail = (e) => {
   //     e.preventDefault();
 
@@ -29,7 +34,7 @@ function Contact() {
       <div className='heading-edu' style={{marginLeft:50}} >Contact Me</div>
       <div className='contact'>
         <div className='contact-form'>
-          <form ref={form}>
+          <form >
           <label for="Name"><span class="req">* </span>Name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <input type="text" id="Name" name="name" placeholder='Your Name'/><br/>
           <label for="Email"><span class="req">* </span>Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -38,7 +43,7 @@ function Contact() {
           <input type="text" id="Phone" name="phone" placeholder='Phone Number' /><br/>
           <label for=""><span class="req">* </span>Message:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/><br/>
           <textarea type="text" id="Msg" name="msg" placeholder='Message'/><br/>
-          <button className='submit' type="submit">Submit</button>
+          <button className='submit' type="submit" onClick={sendMail}>Submit</button>
           {/* <div className='submit'>Send</div> */}
           </form>
           <div className='contact-text'>You can also connect with me on <PiWhatsappLogo size={25}/> +91 9625064432 </div>

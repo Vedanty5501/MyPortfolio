@@ -20,15 +20,16 @@ html {
 
 .page{
     background-image: var(--image-gradient), url(../../Assets/home-bg.jpg);
+
     background-position: top center;    
     /* background-image: url(../../Assets/home-bg.jpg); */
     background-repeat: no-repeat;
     display: flex;
-    aspect-ratio: 0.1;
-    width: 100%;
-    /* width: max(max-content,100%); */
+    /* aspect-ratio: 0.1; */
+    /* width: 100%; */
+    width: max(max-content,100%);
 
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .sidebar{
