@@ -1,27 +1,27 @@
 import {React, useRef, useState} from 'react'
-import emailjs from '@emailjs/browser';
+// import emailjs from '@emailjs/browser';
 import './contact.css'
 import { PiWhatsappLogo } from "react-icons/pi";
 
 function Contact() {
   const form = useRef();
 
-  const sendEmail = (e) => {
-      e.preventDefault();
+  // const sendEmail = (e) => {
+  //     e.preventDefault();
 
-      emailjs
-        .sendForm('service_o54e85s', 'template_rmvsaxv', form.current, {
-          publicKey: 'L1ofkkFYaGencajD2',
-        })
-        .then(
-          () => {
-            console.log('SUCCESS!');
-          },
-          (error) => {
-            console.log('FAILED...', error.text);
-          },
-        );
-    };
+  //     emailjs
+  //       .sendForm('service_o54e85s', 'template_rmvsaxv', form.current, {
+  //         publicKey: 'L1ofkkFYaGencajD2',
+  //       })
+  //       .then(
+  //         () => {
+  //           console.log('SUCCESS!');
+  //         },
+  //         (error) => {
+  //           console.log('FAILED...', error.text);
+  //         },
+  //       );
+  //   };
 
 
   return (
@@ -29,7 +29,7 @@ function Contact() {
       <div className='heading-edu' style={{marginLeft:50}} >Contact Me</div>
       <div className='contact'>
         <div className='contact-form'>
-          <form ref={form} onSubmit={sendEmail} >
+          <form ref={form} onSubmit={} >
           <label for="Name"><span class="req">* </span>Name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <input type="text" id="Name" name="name" placeholder='Your Name'/><br/>
           <label for="Email"><span class="req">* </span>Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
