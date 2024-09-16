@@ -1,7 +1,7 @@
 import React from 'react'
 import './workex.css'
 
-function WorkEx() {
+const WorkEx = () => {
   return (
     <>
         <div className={'container-fluid work-container'}>

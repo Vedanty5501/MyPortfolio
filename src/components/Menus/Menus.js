@@ -11,7 +11,7 @@ const Menus = ({toggle, setView}) => {
         !toggle?(
             <>
                 <div className='navbar-profile-pic'>
-                    <img src={profilepic} alt='profile'/>
+                    <img src={pp} alt='profile'/>
                 </div>
                 <div className='nav-items'>
                     <div className='nav-item'>

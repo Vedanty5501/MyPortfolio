@@ -10,7 +10,9 @@ import react from '../../Assets/techStack/react.png'
 import sql from '../../Assets/techStack/Sql.png' 
 import mongo from '../../Assets/techStack/mongo.png' 
 import android from '../../Assets/techStack/android.png'
-function TechStack() {
+
+
+const TechStack = () => {
   return (
     <div className='TechStack'>
       <div className='heading'><p>TechStack</p></div>

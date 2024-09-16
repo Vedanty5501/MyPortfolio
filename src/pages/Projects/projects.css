@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+.projects{
+    display: flex;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.APK-Link{
+    border: 2px solid #a560c2;
+    border-radius: 90px;
+    width: fit-content;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 20px;
+}
+.APK-Link:hover{
+    color: orange;
+    border-color: orange;
+}
+
+
+
+
+/* Project Box */
+.project1 {
+    margin: 40px;
+    border: 5px solid #a560c2;
+    border-radius: 90px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    width: 40%;
+    overflow: hidden; /* Hide content when collapsed */
+    position: relative;
+}
+
+/* Project heading */
+.project1 h1 {
+    font-family: "Nerko One", cursive;
+    font-size: 1.5rem;
+}
+
+/* Project image */
+.project1 img {
+    all: unset;
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+}
+.project1 p{
+    color: white;
+    font-family: Courier;
+    text-align: justify;
+}
+/* Content (p and h5) initially hidden */
+.project1 h5 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #ca7bec;
+    text-align: left;
+}
+
+
+/* Adjust text */
+.project1 p {
+    font-family: 'Courier';
+    text-align: justify;
+}

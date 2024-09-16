@@ -3,7 +3,7 @@ import {React, useRef, useState} from 'react'
 import './contact.css'
 import { PiWhatsappLogo } from "react-icons/pi";
 
-function Contact() {
+const Contact = () => {
   // const form = useRef();
 
   const sendMail = (e) => {

@@ -4,7 +4,7 @@ import {RiArrowDropDownLine, RiArrowDropUpLine } from "react-icons/ri";
 import { IoEyeSharp } from "react-icons/io5";
 
 
-function Education() {
+const Education = () => {
   const [gradtoggle, setgradToggle] = useState(false)
 
     const handlegradToggle = () => {

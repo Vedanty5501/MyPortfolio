@@ -1,6 +1,6 @@
    .pdf-view{
     margin-top: 50px;
-    margin-left: 200px;
+    margin-left: 350px;
    } 
    .pdf{
     height: 620px;
@@ -10,4 +10,19 @@
    }
    .pdf:hover{
     border-color: orange;
+   }
+   .download-button{
+      font-family: 'Courier New', Courier, monospace;
+      width: 430px;
+      color: white;
+      margin-left: 350px;
+      text-align: center;
+      margin-top: 20px;
+      background-color: #cd5ff8;
+      border-radius: 10px;
+      margin-bottom: 50px;
+   }
+   .download-button:hover{
+      background-color: orange;
+      color: black;
    }
