@@ -1,4 +1,5 @@
 import React from 'react'
+import avasafe from '../../Assets/Project/avasafe-icon.jpg'
 import vidyadaan from '../../Assets/Project/vidyadaan.jpeg'
 import './projects.css'
 import avasafeAPK from '../../Assets/Project/APKs/AvaSafe.apk'
@@ -60,7 +61,7 @@ const Projects = () => {
 
         <div className='project1'>
           <h1>AvaSafe</h1>
-          <img src={vidyadaan} alt="VidyaDaan Project"/>
+          <img src={avasafe} alt="AvaSafe Project"/>
           <p>
             <h5>AvaSafe: Avalanche Prediction and Warning System</h5>
             <h5 style={{textAlign: 'left', display: 'inline'}}>Description:</h5>
