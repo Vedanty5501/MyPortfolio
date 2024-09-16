@@ -1,7 +1,7 @@
 import React from 'react'
 import './menu.css'
 import pp from '../../Assets/my_pic.png'
-import profilepic from '../../Assets/profile-pic.jpeg'
+// import profilepic from '../../Assets/profile-pic.jpeg'
 import { FcHome, FcBusinessman, FcLibrary, FcTodoList, FcGraduationCap, FcCommandLine, FcDocument, FcPhone } from "react-icons/fc";
 
 const Menus = ({toggle, setView}) => {
