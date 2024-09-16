@@ -18,7 +18,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    if (Name.length==0){
+    if (Name.length===0){
       alert("Name field is neccessary")
       return
     }
@@ -69,7 +69,7 @@ const Contact = () => {
           <button className='submit' type="submit">Submit</button>
           {/* <div className='submit'>Send</div> */}
           </form>
-          <div className='contact-text'>You can also connect with me on <PiWhatsappLogo size={25}/> +91 9625064432 </div>
+          <div className='contact-text'>You can also connect with me on <PiWhatsappLogo size={25}/> <a href='https://wa.me/919625064432' target='_blank' style={{ color: "white" }}> Connect Me </a></div>
         </div>
       </div>
     </div>
